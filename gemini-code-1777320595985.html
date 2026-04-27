@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uluyer | Oyun Ödülleri</title>
+    <style>
+        /* Genel Tasarım (Dark Mode) */
+        body {
+            background-color: #0f0f0f;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Navigasyon Menüsü */
+        nav {
+            width: 100%;
+            background-color: #1a1a1a;
+            padding: 15px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            border-bottom: 1px solid #333;
+        }
+
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #007bff;
+        }
+
+        /* Tablo Yapısı */
+        .container {
+            margin-top: 50px;
+            width: 90%;
+            max-width: 600px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th {
+            background-color: #252525;
+            padding: 15px;
+            text-align: left;
+            border-bottom: 2px solid #333;
+        }
+
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #333;
+        }
+
+        /* Ödül Butonu */
+        .btn-link {
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn-link:hover {
+            text-decoration: underline;
+        }
+
+        .emoji {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#">Ana Sayfa</a>
+        <a href="#">Bilgiler</a>
+        <a href="#">Oyunlar</a>
+        <a href="#">Hakkında</a>
+    </nav>
+
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>🎁 Hediye Adı</th>
+                    <th>🔗 Hediye Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="emoji">🗺️</span> Hazine Spreyi</td>
+                    <td><a href="#" class="btn-link">Tıkla Ödülü Al</a></td>
+                </tr>
+                <tr>
+                    <td><span class="emoji">🥚</span> Godzilla Yumurta</td>
+                    <td><a href="#" class="btn-link">Tıkla Ödülü Al</a></td>
+                </tr>
+                <tr>
+                    <td><span class="emoji">💎</span> 100 Elmas</td>
+                    <td><a href="#" class="btn-link">Tıkla Ödülü Al</a></td>
+                </tr>
+                <tr>
+                    <td><span class="emoji">🤡</span> Palyaço Pini</td>
+                    <td><a href="#" class="btn-link">Tıkla Ödülü Al</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
